@@ -14,7 +14,15 @@ export const config = {
         title: "About Me",
         description: "I am a Computer Science Engineering (AI) undergraduate focused on building intelligent, scalable software systems. I specialize in full-stack development, AI/ML engineering, and cloud-native architectures. My work spans end-to-end AI pipelines, data-driven applications, and production-ready platforms. I enjoy turning complex ideas into clean, impactful solutions through code."
     },
-    experiences: [],
+    experiences: [] as Array<{
+        position: string;
+        company: string;
+        period: string;
+        location: string;
+        description: string;
+        responsibilities: string[];
+        technologies: string[];
+    }>,
     projects: [
         {
             id: 1,
