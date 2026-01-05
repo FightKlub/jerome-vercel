@@ -72,7 +72,7 @@ export class TextSplitter {
     element.innerHTML = words
       .map((word) => {
         if (word.trim().length === 0) {
-          return word; // Preserve whitespace
+          return `<span class="split-space">&nbsp;</span>`; // Preserve whitespace as non-breaking space
         }
         return `<span class="split-word">${word}</span>`;
       })

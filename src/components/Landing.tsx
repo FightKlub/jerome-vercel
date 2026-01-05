@@ -16,18 +16,20 @@ const Landing = ({ children }: PropsWithChildren) => {
             <h1>
               {firstName.toUpperCase()}
               <br />
-              {lastName && <span>{lastName.toUpperCase()}</span>}
+              {lastName && <span>{lastName.toUpperCase().split(' ').join(' ')}</span>}
             </h1>
           </div>
           <div className="landing-info">
             <h3>A Creative</h3>
             <h2 className="landing-info-h2">
-              <div className="landing-h2-1">Designer</div>
-              <div className="landing-h2-2">Developer</div>
-            </h2>
-            <h2>
-              <div className="landing-h2-info">Developer</div>
-              <div className="landing-h2-info-1">Designer</div>
+              <div className="landing-h2-1">Developer</div>
+              <div className="landing-h2-2">Engineer</div>
+            </h2>            <h2>
+              <div className="landing-h2-info">Engineer</div>
+              <div className="landing-h2-info-1">Developer</div>
+            </h2>            <h2>
+              <div className="landing-h2-info">Engineer</div>
+              <div className="landing-h2-info-1">Developer</div>
             </h2>
           </div>
         </div>

@@ -1,49 +1,20 @@
 export const config = {
     developer: {
-        name: "Huzaif",
-        fullName: "Huzaif Ahmed",
-        title: "Full Stack Developer",
-        description: "Full-stack builder creating digital experiences that respect humans and scale with clarity. Accessibility is my north star."
+        name: "Jerome",
+        fullName: "Jerome Richard D",
+        title: "Full Stack Developer | AI Engineer | Data Engineer | Data Analyst | Cloud Architect",
+        description: "Versatile CS Engineer passionate about building intelligent systems, scalable cloud architectures, and data-driven solutions. From full-stack development to AI engineering, I transform complex problems into elegant solutions."
     },
     social: {
-        github: "huzaifahmedz",
-        email: "dev.huzaif@gmail.com",
+        github: "FightKlub",
+        email: "10102004jerome@gmail.com",
         location: "India"
     },
     about: {
         title: "About Me",
-        description: "Full-stack builder creating digital experiences that respect humans and scale with clarity. Accessibility is my north star. I specialize in building modern web applications with React, Node.js, and cutting-edge technologies."
+        description: "I am a Computer Science Engineering (AI) undergraduate focused on building intelligent, scalable software systems. I specialize in full-stack development, AI/ML engineering, and cloud-native architectures. My work spans end-to-end AI pipelines, data-driven applications, and production-ready platforms. I enjoy turning complex ideas into clean, impactful solutions through code."
     },
-    experiences: [
-        {
-            position: "Frontend Developer",
-            company: "SelectSkillSet",
-            period: "2024 - Present",
-            location: "Remote",
-            description: "Developing modern, responsive frontend applications with focus on user experience and performance. Working with cutting-edge technologies to build scalable web solutions.",
-            responsibilities: [
-                "Building responsive and interactive user interfaces using React and Next.js",
-                "Implementing modern UI/UX designs with TailwindCSS and Framer Motion",
-                "Optimizing application performance and ensuring cross-browser compatibility",
-                "Collaborating with design and backend teams to deliver high-quality features"
-            ],
-            technologies: ["React", "Next.js", "TailwindCSS", "JavaScript", "Framer Motion", "TypeScript"]
-        },
-        {
-            position: "Full Stack Developer",
-            company: "Tekisky",
-            period: "2023 - 2024",
-            location: "Remote",
-            description: "Developed and maintained full-stack web applications, working on both frontend and backend systems. Collaborated with cross-functional teams to deliver robust software solutions.",
-            responsibilities: [
-                "Developed and maintained full-stack web applications using React, Node.js, and MongoDB",
-                "Implemented RESTful APIs and integrated third-party services",
-                "Built responsive user interfaces and optimized application performance",
-                "Worked on database design and backend architecture"
-            ],
-            technologies: ["React", "Node.js", "MongoDB", "Express", "JavaScript", "MERN Stack"]
-        }
-    ],
+    experiences: [],
     projects: [
         {
             id: 1,
@@ -82,24 +53,24 @@ export const config = {
         }
     ],
     contact: {
-        email: "dev.huzaif@gmail.com",
-        github: "https://github.com/huzaifahmedz",
+        email: "10102004jerome@gmail.com",
+        github: "https://github.com/FightKlub",
         linkedin: "https://www.linkedin.com",
         twitter: "https://x.com",
         instagram: "https://www.instagram.com"
     },
     skills: {
         develop: {
-            title: "DEVELOP",
-            description: "Full-stack development with modern web technologies",
-            details: "Building scalable web applications using React, Node.js, and cutting-edge frameworks. Specializing in creating responsive, performant, and accessible user interfaces.",
-            tools: ["JavaScript", "TypeScript", "React", "Next.js", "Node.js", "Express.js", "MongoDB", "TailwindCSS", "Framer Motion", "Three.js"]
+            title: "CODER",
+            description: "Full-stack development & AI/ML engineering",
+            details: "Building intelligent applications with modern frameworks, machine learning models, and cloud-native architectures. From web apps to AI systems, I code solutions that scale.",
+            tools: ["Python", "JavaScript", "TypeScript", "React", "Node.js", "TensorFlow", "PyTorch", "FastAPI", "Docker", "Kubernetes"]
         },
         design: {
-            title: "DESIGN",
-            description: "UI/UX design and modern web interfaces",
-            details: "Creating beautiful and intuitive user experiences with focus on accessibility and user-centered design principles.",
-            tools: ["UI Design", "UX Design", "Figma", "Photoshop", "Motion Design", "Responsive Design", "Accessibility", "Prototyping"]
+            title: "ENGINEER",
+            description: "Data Engineering & Cloud Architecture",
+            details: "Designing robust data pipelines, cloud infrastructure, and scalable systems. Expertise in ETL processes, data warehousing, and cloud-native solutions on AWS, Azure, and GCP.",
+            tools: ["AWS", "Azure", "GCP", "Spark", "Kafka", "Airflow", "PostgreSQL", "MongoDB", "Terraform", "CI/CD"]
         }
     }
 };
