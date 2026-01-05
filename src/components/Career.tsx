@@ -2,10 +2,6 @@ import "./styles/Career.css";
 import { config } from "../config";
 
 const Career = () => {
-  if (config.experiences.length === 0) {
-    return null; // Hide career section if no experiences
-  }
-  
   return (
     <div className="career-section section-container">
       <div className="career-container">

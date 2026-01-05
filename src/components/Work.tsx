@@ -64,6 +64,9 @@ const Work = () => {
                   <div>
                     <h4>{project.title}</h4>
                     <p>{project.category}</p>
+                    {project.hackathon && (
+                      <span className="hackathon-badge">{project.hackathon}</span>
+                    )}
                   </div>
                 </div>
                 <h4>Tools and features</h4>
